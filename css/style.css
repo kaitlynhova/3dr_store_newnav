@@ -1,0 +1,13 @@
+/* GENERAL STYLES*/
+
+ul{
+  list-style: none;
+}
+
+/* FOOTER STYLES */
+
+footer{
+  background: black;
+  color: white;
+  padding: 70px;
+}
