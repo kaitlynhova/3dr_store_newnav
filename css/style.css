@@ -49,6 +49,11 @@ a :hover
 
 }
 
+/* CONTENT STYLE */
+#content{
+  height: 500px;
+}
+
 /* FOOTER STYLES */
 
 footer{
