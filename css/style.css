@@ -4,6 +4,32 @@ ul{
   list-style: none;
 }
 
+a
+{
+  color: white;
+}
+
+a :hover
+{
+  color: white;
+  opacity: .7;
+}
+
+/* HEADER STYLES */
+.top-brand{
+  max-width: 70px;
+  position: relative;
+  top: -4px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: black;
+}
+
+.navbar-default {
+  background-color: black;
+  border-color: black;
+}
 /* FOOTER STYLES */
 
 footer{
