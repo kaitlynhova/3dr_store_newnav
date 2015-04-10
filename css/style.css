@@ -2,6 +2,7 @@
 
 ul{
   list-style: none;
+  -webkit-padding-start: 0px;
 }
 
 a
@@ -26,6 +27,11 @@ a :hover
   border-color: black;
 }
 
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: black;
+}
+
 .navbar-default {
   background-color: black;
   border-color: black;
@@ -36,4 +42,8 @@ footer{
   background: black;
   color: white;
   padding: 70px;
+}
+
+footer ul{
+  padding-bottom: 50px;
 }
