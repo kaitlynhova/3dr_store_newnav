@@ -3,9 +3,11 @@
     <title>3D Robotics</title>
 
     <!-- STYLES-->
-    <LINK href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <LINK href="css/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <LINK href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <LINK href="css/style.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- JS STUFF -->
+      <script src="js/jquery.min.js"></script>
   </head>
   <body>
     <!-- NAV BAR -->
@@ -37,7 +39,7 @@
                 <li><a href="#">Separated link</a></li>
               </ul>
             </li>
-            <li class="hidden-xs"><a href="#">PRODUCTS</a></li>
+            <li id="products" class="hidden-xs"><a href="#">PRODUCTS</a></li>
             <li><a href="#">BUNDLES</a></li>
             <li><a href="#">ENTERPRISE</a></li>
             <li><a href="#">SUPPORT</a></li>
@@ -47,6 +49,24 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+    <div id="product-list" class="hidden-xs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <p>1</p>
+          </div>
+          <div class="col-md-3">
+            <p>1</p>
+          </div>
+          <div class="col-md-3">
+            <p>1</p>
+          </div>
+          <div class="col-md-3">
+            <p>1</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
   <footer>
     <div class="container">
@@ -131,7 +151,7 @@
       </div>
     </div>
     <!-- JS STUFF -->
-    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/fancy-dropdown.js"></script>
   </footer>
 </html>

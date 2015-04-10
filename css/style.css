@@ -35,7 +35,20 @@ a :hover
 .navbar-default {
   background-color: black;
   border-color: black;
+  border-radius: 0;
 }
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+#product-list{
+  display: none;
+  background: black;
+  padding: 50px;
+
+}
+
 /* FOOTER STYLES */
 
 footer{
