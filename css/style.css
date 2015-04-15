@@ -8,6 +8,7 @@ ul{
 a
 {
   color: white !important;
+  transition: 1s;
 }
 
 a :hover
@@ -34,6 +35,9 @@ a :hover
   transition: 1s;
 }
 
+.navbar-default .navbar-nav > li > a:hover{
+  color: #7fc241 !important;
+}
 
 .navbar-toggle:hover{
   background: black !important;
