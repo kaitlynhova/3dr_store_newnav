@@ -42,6 +42,28 @@ a :hover
   margin-bottom: 0px;
 }
 
+.nav-solo-icon{
+  width: 100%;
+  max-width: 60px;
+}
+
+.nav-diy-icon{
+  width: 100%;
+  max-width: 111px;
+  position: relative;
+  top: -6px;
+}
+
+.nav-parts-icon{
+  width: 100%;
+  max-width: 62px;
+}
+
+.nav-clearance-icon{
+  width: 100%;
+  max-width: 42px;
+}
+
 #product-list{
   display: none;
   background: black;
