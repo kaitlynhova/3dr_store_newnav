@@ -25,6 +25,11 @@ a :hover
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: black;
+  text-align:center;
+}
+
+.navbar-collapse .fa{
+  padding-right: 10px;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
