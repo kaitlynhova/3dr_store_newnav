@@ -78,6 +78,14 @@ a :hover
   padding-top: 15px;
 }
 
+#mobile-product-list{
+  background: rgba(194,194,194,.35);
+  color: #333333;
+  letter-spacing: 1px;
+  text-align: center;
+  display:none;
+}
+
 /* CONTENT STYLE */
 #content{
   height: 500px;
