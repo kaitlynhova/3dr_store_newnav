@@ -90,9 +90,9 @@ a :hover
 .nav-solo-icon{
   width: 100%;
   max-width: 60px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   position: relative;
-  top: 8px;
+  top: 4px;
 }
 
 .nav-diy-icon{
@@ -105,8 +105,10 @@ a :hover
 
 .nav-parts-icon{
   width: 100%;
-  max-width: 62px;
-  padding-bottom: 5px;
+  max-width: 57px;
+  padding-bottom: 10px;
+  position: relative;
+  top: 5px;
 }
 
 .nav-clearance-icon{
