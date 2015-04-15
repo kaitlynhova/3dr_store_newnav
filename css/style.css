@@ -7,12 +7,12 @@ ul{
 
 a
 {
-  color: white;
+  color: white !important;
 }
 
 a :hover
 {
-  color: white;
+  color: white !important;
   opacity: .7;
 }
 
@@ -137,4 +137,15 @@ footer{
 
 footer ul{
   padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav > li:hover{
+    background: #7fc241 ;
+    color:white !important;
+    transition: 2s;
+  }
+  .mobile-search-li:hover{
+    background: white!important;
+  }
 }
