@@ -84,11 +84,42 @@ a :hover
 }
 
 #mobile-product-list{
-  background: rgba(194,194,194,.35);
+  letter-spacing: 1px;
+  text-align: center;
+  display:none;
+}
+
+#poppin-search-bar{
+  background: white;
   color: #333333;
   letter-spacing: 1px;
   text-align: center;
   display:none;
+}
+
+.caret{
+  transition: .5s;
+}
+
+.spincaret{
+  -webkit-transform: rotate(-180deg);
+}
+
+.mobile-search-li{
+  background: white;
+}
+
+.search-area{
+  border: none;
+  width: 100%;
+  padding: 20px;
+  background: url(../nav-svgs/search-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position-y: 15px;
+  background-position-x: 20px;
+  padding-left: 75px;
+  outline: none;
 }
 
 /* CONTENT STYLE */
