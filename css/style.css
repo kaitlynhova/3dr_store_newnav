@@ -23,6 +23,26 @@ a :hover
   top: -4px;
 }
 
+.navbar-toggle {
+  border: none;
+  color: white;
+  font-size: 20px;
+  transition: 1s;
+}
+
+
+.navbar-toggle:hover{
+  background: black !important;
+  color: #7fc241;
+}
+
+.navbar-toggle:focus{
+  background: black !important;
+  color: white;
+}
+
+
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: black;
   text-align:center;
