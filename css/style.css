@@ -45,30 +45,37 @@ a :hover
 .nav-solo-icon{
   width: 100%;
   max-width: 60px;
+  padding-bottom: 10px;
+  position: relative;
+  top: 8px;
 }
 
 .nav-diy-icon{
   width: 100%;
   max-width: 111px;
   position: relative;
-  top: -6px;
+  top: 3px;
+  padding-bottom: 14px;
 }
 
 .nav-parts-icon{
   width: 100%;
   max-width: 62px;
+  padding-bottom: 5px;
 }
 
 .nav-clearance-icon{
   width: 100%;
   max-width: 42px;
+  padding-bottom: 3px;
 }
 
 #product-list{
-  display: none;
-  background: black;
-  padding: 50px;
-
+  background: rgba(194,194,194,.35);
+  color: #333333;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 15px;
 }
 
 /* CONTENT STYLE */
