@@ -30,6 +30,10 @@ a :hover
   transition: 1s;
 }
 
+.nav > li{
+  transition: 1s;
+}
+
 
 .navbar-toggle:hover{
   background: black !important;
