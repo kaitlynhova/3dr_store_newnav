@@ -49,6 +49,18 @@ a :hover
   color: white;
 }
 
+#product-list .product-category{
+  transition: 1s;
+}
+
+#product-list .product-category a{
+  color: #333333 !important;
+  text-decoration: none;
+}
+
+#product-list .product-category:hover{
+  opacity: .7;
+}
 
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
