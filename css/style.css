@@ -103,6 +103,10 @@ a :hover
   padding-bottom: 14px;
 }
 
+.gray{
+  color: gray !important;
+}
+
 .nav-parts-icon{
   width: 100%;
   max-width: 57px;
